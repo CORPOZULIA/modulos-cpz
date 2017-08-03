@@ -133,5 +133,17 @@ return [
 			//FIN DE LOS PROGRAMAS DEL MODULO
 		],
 	],
+	[
+		'nombre_modulo' => 'Administracion',
+		'descripcion_modulo' => 'Modulo para la administracion a distancia mediante GIT',
+		'url_modulo' => 'administracion',
+		'programas' => [
+			[
+				'nombre_programa' => 'Consola GIT',
+				'descripcion_programa' => 'Consola de manejo de GIT',
+				'url_modulo' => 'administracion/git'
+			],
+		]
+	]
 
 ];
