@@ -61,9 +61,17 @@
             <div class="row">
             <!-- INICIO DEL FORMULARIO -->
                 <form action="" method="post"   id="cargar_info">
+                  <div class="row">
+                        <div class="col-sm-5">
+                            <label for="nombres">Email</label>
+                            <input type="text" name="nombres" id="nombres" ng-model="email" readonly class="form-control">
+                            
+                        </div> 
+                  </div>
                     <div class="row" id="row-form">
                         <input type="hidden" id="user_id" name="user_id" value="">
-                        
+
+                       
                         <div class="col-sm-3">
                             <label for="nombres">Nombres</label>
                             <input type="text" name="nombres" id="nombres" ng-model="nombres" readonly class="form-control">
@@ -105,6 +113,13 @@
                                             <input type="text" name="tipo_competencia" readonly class="form-control" ng-model="tipo_competencia">
                                         </div>
                                    </div>
+                                   <div class="row">
+                                       <div class="col-sm-2">
+                                            <label for="tipo_carrera">Número de contacto</label>
+                                            <input type="text" name="tipo_competencia" readonly class="form-control" ng-model="num_tlfno">
+                                        </div>
+                                   </div>
+
                                </div>
                            </section>
                        </div>

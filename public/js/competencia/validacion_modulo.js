@@ -37,6 +37,8 @@ app.controller('controlador_validaciones', function($scope, $http, $interval){
 				$scope.modalidad_pago = $scope.personas[i].pago.denominacion_tipo;
 				$scope.tipo_competencia = $scope.personas[i].solicitud.competencia.nombre_tipo;
 				$scope.imagen_deposito =  'http://'+url+'/img/depositos/'+$scope.personas[i].solicitud.imagen_deposito;
+				$scope.num_tlfno = $scope.personas[i].personas.telefono_personal
+				$scope.email = $scope.personas[i].personas.email
 				break;
 			}
 		}
